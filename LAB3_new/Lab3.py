@@ -1,3 +1,4 @@
+import random
 import math
 
 
@@ -147,6 +148,6 @@ def number_guessing_game():
         elif guess > target:
             print("Your guess is too high.")
         else:
-            print(f"Good job, {name}! You guessed my number in {
-                  guesses} tries!")
+            print(
+                f"Good job, {name}! You guessed my number in {guesses} tries!")
             break
